@@ -1,0 +1,73 @@
+/* Container for the entire page */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Main heading styles */
+  .title {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  /* Blog list styling */
+  .blogList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  /* Individual blog card */
+  .blogCard {
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    width: 280px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .blogCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Blog card content */
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Blog title */
+  .blogCard h2 {
+    font-size: 1.5rem;
+    color: #222;
+    margin: 0;
+  }
+  
+  /* Blog description */
+  .blogCard p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+  }
+  
+  /* Read more link */
+  .readMore {
+    font-size: 0.9rem;
+    color: #0070f3;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  

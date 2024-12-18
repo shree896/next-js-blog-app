@@ -1,0 +1,40 @@
+/* Main container for the blog post page */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Blog title */
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Blog content */
+  .content {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #444;
+  }
+  
+  /* Back to Home link */
+  .backLink {
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #0070f3;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  .backLink:hover {
+    border-color: #0070f3;
+  }
+  
